@@ -8,3 +8,7 @@ document.addEventListener('contextmenu', item => {
     contextMenu.style.left = item.pageX + 'px'
     contextMenu.style.top = `${item.pageY}px`
 })
+
+document.body.onclick = function () {
+    contextMenu.style.display = 'none'
+}
