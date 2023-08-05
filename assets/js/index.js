@@ -2,6 +2,8 @@
 
 let contextMenu = document.querySelector('#contextMenu')
 
+alert('- راست کلیک کنید , لطفا \n - Right click , Please')
+
 // Handle 'contextmenu' right click event
 document.addEventListener('contextmenu', (item) => {
     // Prevent default browser context menu
